@@ -13,7 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .body{
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -37,4 +41,8 @@
 }
 button{
   background-color: red;
+}
+.dark-theme{
+  background-color: aqua;
+  color: red;
 }
