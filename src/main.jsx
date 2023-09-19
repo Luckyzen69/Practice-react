@@ -11,7 +11,10 @@ import CounterState from './components/counter'
 import Theme from './pages/theme'
 import InputField from './pages/InpuField'
 import App from './App'
+import ProductAPI from './pages/ProductAPI'
+import { BrowserRouter } from 'react-router-dom'
 // let userRole ="ADMIN"
+
 
 let userCount = 3 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -24,7 +27,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <InputField/> */}
     {/* <hr /> */}
     {/* <Theme/> */}
+    <BrowserRouter>
+    {/* <ProductAPI/> */}
     <App/>
+    </BrowserRouter>
+
   </div>
 
 )
